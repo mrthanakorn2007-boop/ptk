@@ -1,0 +1,60 @@
+{
+  "studentId": "66001",
+  "totalScore": -100,
+  "config": {
+    "tiers": [
+      { "min": 150, "label": "ดีเยี่ยม", "color": "green", "status": "good" },
+      { "min": 50, "label": "ผ่านเกณฑ์", "color": "blue", "status": "pass" },
+      { "min": -9999, "label": "ต้องปรับปรุง", "color": "red", "status": "warning" }
+    ],
+    "visualMax": 200
+  },
+  "semesters": ["1/2567", "2/2566"],
+  "history": [
+    {
+      "id": 1,
+      "date": "2024-06-10T08:30:00",
+      "category": "late",
+      "description": "มาสายเกิน 15 นาที",
+      "points": -5,
+      "teacher": "ครูสมชาย ใจดี",
+      "semester": "1/2567"
+    },
+    {
+      "id": 2,
+      "date": "2024-06-05T12:00:00",
+      "category": "volunteer",
+      "description": "ช่วยงานห้องสมุด",
+      "points": 10,
+      "teacher": "ครูสมหญิง รักเรียน",
+      "semester": "1/2567"
+    },
+    {
+      "id": 3,
+      "date": "2024-06-01T08:00:00",
+      "category": "uniform",
+      "description": "แต่งกายผิดระเบียบ (ถุงเท้าผิด)",
+      "points": -5,
+      "teacher": "ครูระเบียบ เคร่งครัด",
+      "semester": "1/2567"
+    },
+    {
+      "id": 4,
+      "date": "2023-12-15T08:30:00",
+      "category": "late",
+      "description": "มาสาย",
+      "points": -5,
+      "teacher": "ครูสมชาย ใจดี",
+      "semester": "2/2566"
+    },
+    {
+      "id": 5,
+      "date": "2023-11-20T16:00:00",
+      "category": "activity",
+      "description": "เข้าร่วมกิจกรรมจิตอาสาโรงเรียน",
+      "points": 20,
+      "teacher": "ครูกิจกรรม ทำดี",
+      "semester": "2/2566"
+    }
+  ]
+}
